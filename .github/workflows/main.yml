@@ -4,7 +4,7 @@ on:
     branches: [ "main" ]
 env:
   dockerimage_tag: ${{ github.sha }}
-  dockerimage_name: sce06147/gitops
+  dockerimage_name: hynseok/gitops
 jobs:
   build:
     runs-on: ubuntu-latest
